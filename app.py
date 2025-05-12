@@ -30,7 +30,7 @@ class AnnChatApp:
 
     def run(self):
         # Get user input
-        user_input = st.text_input("Your message:", key="user_input")
+        user_input = st.text_input("Ask a question about Ann's experience, skills, or projects:", key="user_input")
 
         # Process the message
         if user_input:
