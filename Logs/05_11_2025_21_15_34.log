@@ -1,0 +1,28 @@
+[2025-05-11 21:15:48,984] INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[2025-05-11 21:15:49,281] INFO - Loading faiss with AVX512 support.
+[2025-05-11 21:15:49,286] INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+[2025-05-11 21:15:49,286] INFO - Loading faiss with AVX2 support.
+[2025-05-11 21:15:49,428] INFO - Successfully loaded faiss with AVX2 support.
+[2025-05-11 21:15:49,447] INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+[2025-05-11 21:16:03,181] INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[2025-05-11 21:16:03,471] INFO - User: what is ann's experience
+[2025-05-11 21:16:03,877] INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[2025-05-11 21:16:04,336] INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-05-11 21:16:04,350] INFO - Assistant: Ann has over 4 years of experience as a Data Scientist applying Machine Learning, Deep Learning, and NLP to solve complex problems and conducting A/B testing.  
+
+She also has 8+ years of experience in the tech industry as a Data Engineer and Data Analyst, with a strong background in Supply Chain Analytics and business optimization.  
+
+[2025-05-11 21:16:41,695] INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[2025-05-11 21:16:42,197] INFO - User: what is  role which Anns profile best suited for
+[2025-05-11 21:16:42,723] INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[2025-05-11 21:16:43,129] INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-05-11 21:16:43,141] INFO - Assistant: Based on the provided profile, Ann Maria Chirackal George would be best suited for roles such as:
+
+* **Data Scientist** 
+* **Applied Scientist**
+* **Gen AI roles**  
+
+
+Her experience in Machine Learning, Deep Learning, NLP, Data Engineering, and Data Analysis, along with her skills in Python, R, SQL, and Git, make her a strong candidate for these positions. 
+
